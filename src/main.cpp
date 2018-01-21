@@ -1,6 +1,10 @@
 #include <iostream>
+#include "Game.hpp"
+#include "DEFINITIONS.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
+    Younux::Game(SCREEN_WIDTH, SCREEN_HEIGHT, WINDOW_TITLE);
+
+    return EXIT_SUCCESS;
 }

@@ -81,14 +81,248 @@ src/CMakeFiles/tic_tac_toe.dir/main.cpp.o.provides: src/CMakeFiles/tic_tac_toe.d
 src/CMakeFiles/tic_tac_toe.dir/main.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/main.cpp.o
 
 
+src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o: ../src/StateMachinne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/StateMachinne.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/StateMachinne.cpp > CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/StateMachinne.cpp -o CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o: ../src/AssetManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/AssetManager.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/AssetManager.cpp > CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/AssetManager.cpp -o CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o: ../src/InputManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/InputManager.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/InputManager.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/InputManager.cpp > CMakeFiles/tic_tac_toe.dir/InputManager.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/InputManager.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/InputManager.cpp -o CMakeFiles/tic_tac_toe.dir/InputManager.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o: ../src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/Game.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/Game.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/Game.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/Game.cpp > CMakeFiles/tic_tac_toe.dir/Game.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/Game.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/Game.cpp -o CMakeFiles/tic_tac_toe.dir/Game.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o: ../src/SplashState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/SplashState.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/SplashState.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/SplashState.cpp > CMakeFiles/tic_tac_toe.dir/SplashState.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/SplashState.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/SplashState.cpp -o CMakeFiles/tic_tac_toe.dir/SplashState.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o: ../src/MainMenuState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/MainMenuState.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/MainMenuState.cpp > CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/MainMenuState.cpp -o CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o: ../src/GameState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/GameState.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/GameState.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/GameState.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/GameState.cpp > CMakeFiles/tic_tac_toe.dir/GameState.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/GameState.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/GameState.cpp -o CMakeFiles/tic_tac_toe.dir/GameState.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o: ../src/PauseState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/PauseState.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/PauseState.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/PauseState.cpp > CMakeFiles/tic_tac_toe.dir/PauseState.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/PauseState.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/PauseState.cpp -o CMakeFiles/tic_tac_toe.dir/PauseState.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o
+
+
+src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o: src/CMakeFiles/tic_tac_toe.dir/flags.make
+src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o: ../src/GameOverState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o -c /Users/younes/Projects/tic-tac-toe/src/GameOverState.cpp
+
+src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.i"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/tic-tac-toe/src/GameOverState.cpp > CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.i
+
+src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.s"
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/tic-tac-toe/src/GameOverState.cpp -o CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.s
+
+src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.requires
+
+src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.provides: src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.provides.build
+.PHONY : src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.provides
+
+src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.provides.build: src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o
+
+
 # Object files for target tic_tac_toe
 tic_tac_toe_OBJECTS = \
-"CMakeFiles/tic_tac_toe.dir/main.cpp.o"
+"CMakeFiles/tic_tac_toe.dir/main.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/Game.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/GameState.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o"
 
 # External object files for target tic_tac_toe
 tic_tac_toe_EXTERNAL_OBJECTS =
 
 src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/main.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o
+src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o
 src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/build.make
 src/tic_tac_toe: ../extlibs/SFML/lib/libsfml-system.dylib
 src/tic_tac_toe: ../extlibs/SFML/lib/libsfml-window.dylib
@@ -96,7 +330,7 @@ src/tic_tac_toe: ../extlibs/SFML/lib/libsfml-graphics.dylib
 src/tic_tac_toe: ../extlibs/SFML/lib/libsfml-network.dylib
 src/tic_tac_toe: ../extlibs/SFML/lib/libsfml-audio.dylib
 src/tic_tac_toe: src/CMakeFiles/tic_tac_toe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tic_tac_toe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tic_tac_toe"
 	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tic_tac_toe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +339,15 @@ src/CMakeFiles/tic_tac_toe.dir/build: src/tic_tac_toe
 .PHONY : src/CMakeFiles/tic_tac_toe.dir/build
 
 src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/main.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o.requires
+src/CMakeFiles/tic_tac_toe.dir/requires: src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o.requires
 
 .PHONY : src/CMakeFiles/tic_tac_toe.dir/requires
 

@@ -84,6 +84,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/AssetManager.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/Game.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/GameOverState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/GameState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/InputManager.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/MainMenuState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/PauseState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/SplashState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/StateMachinne.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
 		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/main.cpp">
 			<Option target="tic_tac_toe"/>
 		</Unit>

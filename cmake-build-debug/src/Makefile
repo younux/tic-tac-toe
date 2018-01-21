@@ -125,6 +125,249 @@ tic_tac_toe/fast:
 	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/build
 .PHONY : tic_tac_toe/fast
 
+AssetManager.o: AssetManager.cpp.o
+
+.PHONY : AssetManager.o
+
+# target to build an object file
+AssetManager.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o
+.PHONY : AssetManager.cpp.o
+
+AssetManager.i: AssetManager.cpp.i
+
+.PHONY : AssetManager.i
+
+# target to preprocess a source file
+AssetManager.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.i
+.PHONY : AssetManager.cpp.i
+
+AssetManager.s: AssetManager.cpp.s
+
+.PHONY : AssetManager.s
+
+# target to generate assembly for a file
+AssetManager.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.s
+.PHONY : AssetManager.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+GameOverState.o: GameOverState.cpp.o
+
+.PHONY : GameOverState.o
+
+# target to build an object file
+GameOverState.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o
+.PHONY : GameOverState.cpp.o
+
+GameOverState.i: GameOverState.cpp.i
+
+.PHONY : GameOverState.i
+
+# target to preprocess a source file
+GameOverState.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.i
+.PHONY : GameOverState.cpp.i
+
+GameOverState.s: GameOverState.cpp.s
+
+.PHONY : GameOverState.s
+
+# target to generate assembly for a file
+GameOverState.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.s
+.PHONY : GameOverState.cpp.s
+
+GameState.o: GameState.cpp.o
+
+.PHONY : GameState.o
+
+# target to build an object file
+GameState.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.o
+.PHONY : GameState.cpp.o
+
+GameState.i: GameState.cpp.i
+
+.PHONY : GameState.i
+
+# target to preprocess a source file
+GameState.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.i
+.PHONY : GameState.cpp.i
+
+GameState.s: GameState.cpp.s
+
+.PHONY : GameState.s
+
+# target to generate assembly for a file
+GameState.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.s
+.PHONY : GameState.cpp.s
+
+InputManager.o: InputManager.cpp.o
+
+.PHONY : InputManager.o
+
+# target to build an object file
+InputManager.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.o
+.PHONY : InputManager.cpp.o
+
+InputManager.i: InputManager.cpp.i
+
+.PHONY : InputManager.i
+
+# target to preprocess a source file
+InputManager.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.i
+.PHONY : InputManager.cpp.i
+
+InputManager.s: InputManager.cpp.s
+
+.PHONY : InputManager.s
+
+# target to generate assembly for a file
+InputManager.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.s
+.PHONY : InputManager.cpp.s
+
+MainMenuState.o: MainMenuState.cpp.o
+
+.PHONY : MainMenuState.o
+
+# target to build an object file
+MainMenuState.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.o
+.PHONY : MainMenuState.cpp.o
+
+MainMenuState.i: MainMenuState.cpp.i
+
+.PHONY : MainMenuState.i
+
+# target to preprocess a source file
+MainMenuState.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.i
+.PHONY : MainMenuState.cpp.i
+
+MainMenuState.s: MainMenuState.cpp.s
+
+.PHONY : MainMenuState.s
+
+# target to generate assembly for a file
+MainMenuState.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.s
+.PHONY : MainMenuState.cpp.s
+
+PauseState.o: PauseState.cpp.o
+
+.PHONY : PauseState.o
+
+# target to build an object file
+PauseState.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o
+.PHONY : PauseState.cpp.o
+
+PauseState.i: PauseState.cpp.i
+
+.PHONY : PauseState.i
+
+# target to preprocess a source file
+PauseState.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.i
+.PHONY : PauseState.cpp.i
+
+PauseState.s: PauseState.cpp.s
+
+.PHONY : PauseState.s
+
+# target to generate assembly for a file
+PauseState.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.s
+.PHONY : PauseState.cpp.s
+
+SplashState.o: SplashState.cpp.o
+
+.PHONY : SplashState.o
+
+# target to build an object file
+SplashState.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.o
+.PHONY : SplashState.cpp.o
+
+SplashState.i: SplashState.cpp.i
+
+.PHONY : SplashState.i
+
+# target to preprocess a source file
+SplashState.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.i
+.PHONY : SplashState.cpp.i
+
+SplashState.s: SplashState.cpp.s
+
+.PHONY : SplashState.s
+
+# target to generate assembly for a file
+SplashState.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.s
+.PHONY : SplashState.cpp.s
+
+StateMachinne.o: StateMachinne.cpp.o
+
+.PHONY : StateMachinne.o
+
+# target to build an object file
+StateMachinne.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.o
+.PHONY : StateMachinne.cpp.o
+
+StateMachinne.i: StateMachinne.cpp.i
+
+.PHONY : StateMachinne.i
+
+# target to preprocess a source file
+StateMachinne.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.i
+.PHONY : StateMachinne.cpp.i
+
+StateMachinne.s: StateMachinne.cpp.s
+
+.PHONY : StateMachinne.s
+
+# target to generate assembly for a file
+StateMachinne.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.s
+.PHONY : StateMachinne.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -161,6 +404,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tic_tac_toe"
+	@echo "... AssetManager.o"
+	@echo "... AssetManager.i"
+	@echo "... AssetManager.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... GameOverState.o"
+	@echo "... GameOverState.i"
+	@echo "... GameOverState.s"
+	@echo "... GameState.o"
+	@echo "... GameState.i"
+	@echo "... GameState.s"
+	@echo "... InputManager.o"
+	@echo "... InputManager.i"
+	@echo "... InputManager.s"
+	@echo "... MainMenuState.o"
+	@echo "... MainMenuState.i"
+	@echo "... MainMenuState.s"
+	@echo "... PauseState.o"
+	@echo "... PauseState.i"
+	@echo "... PauseState.s"
+	@echo "... SplashState.o"
+	@echo "... SplashState.i"
+	@echo "... SplashState.s"
+	@echo "... StateMachinne.o"
+	@echo "... StateMachinne.i"
+	@echo "... StateMachinne.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
