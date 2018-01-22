@@ -43,7 +43,7 @@ namespace Younux {
         checkMatchVector.push_back({ 2, 2, 2, 0, 2, 1 });
     }
 
-    void AI::PlacePiece(int(*gridArray)[3][3], sf::Sprite gridPieces[3][3],int *gameState) {
+    void AI::PlacePiece(int (*gridArray)[3][3], sf::Sprite gridPieces[3][3],int *gameState) {
         try {
             for(int i=0; i<checkMatchVector.size(); i++){
                 CheckSection(checkMatchVector[i][0], checkMatchVector[i][1],
@@ -81,7 +81,7 @@ namespace Younux {
 
     }
     void AI::CheckSection(int x1, int y1, int x2, int y2, int X, int Y, int pieceToCheck,
-                          int(*gridArray)[3][3], sf::Sprite gridPieces[3][3]) {
+                          int (*gridArray)[3][3], sf::Sprite gridPieces[3][3]) {
         if((*gridArray)[x1][y1] == pieceToCheck && (*gridArray)[x2][y2] == pieceToCheck){
             if(EMPTY_PIECE == (*gridArray)[X][Y]){
                 (*gridArray)[X][Y] = AI_PIECE;
@@ -93,7 +93,7 @@ namespace Younux {
 
     }
 
-    void AI::CheckIfPieceIsEmpty(int X, int Y, int(*gridArray)[3][3], sf::Sprite gridPieces[3][3]){
+    void AI::CheckIfPieceIsEmpty(int X, int Y, int (*gridArray)[3][3], sf::Sprite gridPieces[3][3]){
         if(EMPTY_PIECE == (*gridArray)[X][Y]){
             (*gridArray)[X][Y] = AI_PIECE;
             gridPieces[X][Y].setTexture(_data->assets.GetTexture(O_PIECE_NAME));
