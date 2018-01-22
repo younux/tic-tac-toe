@@ -72,3 +72,5 @@
 
 #define GRID_SPRITE_FILEPATH "./resources/res/Grid.png"
 #define GRID_SPRITE_NAME "Grid Sprite"
+
+#define TIME_BEFORE_SHOWING_GAMEOVER 3.0

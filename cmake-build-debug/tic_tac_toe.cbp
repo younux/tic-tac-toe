@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/AI.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
 		<Unit filename="/Users/younes/Projects/tic-tac-toe/src/AssetManager.cpp">
 			<Option target="tic_tac_toe"/>
 		</Unit>

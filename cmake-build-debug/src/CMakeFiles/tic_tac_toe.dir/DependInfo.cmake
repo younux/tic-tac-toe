@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/younes/Projects/tic-tac-toe/src/AI.cpp" "/Users/younes/Projects/tic-tac-toe/cmake-build-debug/src/CMakeFiles/tic_tac_toe.dir/AI.cpp.o"
   "/Users/younes/Projects/tic-tac-toe/src/AssetManager.cpp" "/Users/younes/Projects/tic-tac-toe/cmake-build-debug/src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.o"
   "/Users/younes/Projects/tic-tac-toe/src/Game.cpp" "/Users/younes/Projects/tic-tac-toe/cmake-build-debug/src/CMakeFiles/tic_tac_toe.dir/Game.cpp.o"
   "/Users/younes/Projects/tic-tac-toe/src/GameOverState.cpp" "/Users/younes/Projects/tic-tac-toe/cmake-build-debug/src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o"

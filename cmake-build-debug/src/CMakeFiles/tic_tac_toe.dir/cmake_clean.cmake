@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tic_tac_toe.dir/GameState.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/PauseState.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.o"
+  "CMakeFiles/tic_tac_toe.dir/AI.cpp.o"
   "tic_tac_toe.pdb"
   "tic_tac_toe"
 )

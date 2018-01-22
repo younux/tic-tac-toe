@@ -18,11 +18,15 @@ namespace Younux {
         _gameState = STATE_PLAYING;
         _turn = PLAYER_PIECE;
 
+        this->ai = new AI(_turn, this->_data);
+
         this->_data->assets.LoadTexture(PAUSE_BUTTON_NAME, PAUSE_BUTTON_FILEPATH);
         this->_data->assets.LoadTexture(GAME_BACKGROUND_NAME, GAME_BACKGROUND_FILEPATH);
         this->_data->assets.LoadTexture(GRID_SPRITE_NAME, GRID_SPRITE_FILEPATH);
         this->_data->assets.LoadTexture(X_PIECE_NAME, X_PIECE_FILEPATH);
         this->_data->assets.LoadTexture(O_PIECE_NAME, O_PIECE_FILEPATH);
+        this->_data->assets.LoadTexture(X_WINING_PIECE_NAME, X_WINING_PIECE_FILEPATH);
+        this->_data->assets.LoadTexture(O_WINING_PIECE_NAME, O_WINING_PIECE_FILEPATH);
 
         _background.setTexture(_data->assets.GetTexture(GAME_BACKGROUND_NAME));
         _pauseButton.setTexture(_data->assets.GetTexture(PAUSE_BUTTON_NAME));
@@ -56,13 +60,20 @@ namespace Younux {
                 _data->machine.AddState(StateRef(new PauseState(_data)), false);
             }
             if (_data->input.isSpriteClicked(_gridSprite, sf::Mouse::Left, _data->window)) {
-                this->CheckAndPlace();
+                if(_gameState == STATE_PLAYING){
+                    this->CheckAndPlace();
+                }
             }
         }
     }
 
     void GameState::Update(float dt) {
-
+        if(_gameState == STATE_DRAW || _gameState == STATE_LOSE
+           || _gameState == STATE_WON){
+            if(this->_clock.getElapsedTime().asSeconds() > TIME_BEFORE_SHOWING_GAMEOVER){
+                this->_data->machine.AddState(StateRef(new GameOverState(_data)), true);
+            }
+        }
     }
 
     void GameState::Draw(float dt) {
@@ -124,16 +135,84 @@ namespace Younux {
             gridArray[column-1][row-1] = _turn;
             if(_turn == PLAYER_PIECE){
                 _gridPieces[column-1][row-1].setTexture(_data->assets.GetTexture(X_PIECE_NAME));
-                _turn = AI_PIECE;
-            } else if(_turn == AI_PIECE){
-                _gridPieces[column-1][row-1].setTexture(_data->assets.GetTexture(O_PIECE_NAME));
-                _turn = PLAYER_PIECE;
+                this->CheckPlayerHasWon(_turn);
             }
+
             _gridPieces[column-1][row-1].setColor(sf::Color(255,255,255,255));
 
         }
 
 
+    }
+
+    void GameState::CheckPlayerHasWon(int turn) {
+        Check3PiecesForMatch(0, 0, 1, 0, 2, 0, turn);
+        Check3PiecesForMatch(0, 1, 1, 1, 2, 1, turn);
+        Check3PiecesForMatch(0, 2, 1, 2, 2, 2, turn);
+        Check3PiecesForMatch(0, 0, 0, 1, 0, 2, turn);
+        Check3PiecesForMatch(1, 0, 1, 1, 1, 2, turn);
+        Check3PiecesForMatch(2, 0, 2, 1, 2, 2, turn);
+        Check3PiecesForMatch(0, 0, 1, 1, 2, 2, turn);
+        Check3PiecesForMatch(0, 2, 1, 1, 2, 0, turn);
+
+        if(_gameState != STATE_WON){
+            _gameState = STATE_AI_PLAYING;
+            ai->PlacePiece(&gridArray, _gridPieces, &_gameState);
+
+            Check3PiecesForMatch(0, 0, 1, 0, 2, 0, AI_PIECE);
+            Check3PiecesForMatch(0, 1, 1, 1, 2, 1, AI_PIECE);
+            Check3PiecesForMatch(0, 2, 1, 2, 2, 2, AI_PIECE);
+            Check3PiecesForMatch(0, 0, 0, 1, 0, 2, AI_PIECE);
+            Check3PiecesForMatch(1, 0, 1, 1, 1, 2, AI_PIECE);
+            Check3PiecesForMatch(2, 0, 2, 1, 2, 2, AI_PIECE);
+            Check3PiecesForMatch(0, 0, 1, 1, 2, 2, AI_PIECE);
+            Check3PiecesForMatch(0, 2, 1, 1, 2, 0, AI_PIECE);
+        }
+
+        int emptyNum = 9;
+
+        for(int x = 0; x<3; x++){
+            for(int y = 0; y<3; y++) {
+                if (EMPTY_PIECE != gridArray[x][y]){
+                    emptyNum --;
+                }
+            }
+        }
+
+        if(emptyNum == 0 && (_gameState != STATE_WON) && (_gameState != STATE_LOSE)){
+            _gameState = STATE_DRAW;
+        }
+
+        if(_gameState == STATE_DRAW || _gameState == STATE_LOSE || _gameState == STATE_WON){
+            this->_clock.restart();
+        }
+
+        std::cout << _gameState << std::endl;
+
+    }
+
+    void GameState::Check3PiecesForMatch(int x1, int y1, int x2, int y2,
+                                         int x3, int y3, int pieceToCheck) {
+        if(pieceToCheck == gridArray [x1][y1] &&
+                pieceToCheck == gridArray [x2][y2] &&
+                pieceToCheck == gridArray [x3][y3] ){
+            std::string winningPieceStr;
+            if(pieceToCheck == O_PIECE){
+                winningPieceStr = O_WINING_PIECE_NAME;
+            } else {
+                winningPieceStr = X_WINING_PIECE_NAME;
+            }
+            _gridPieces[x1][y1].setTexture(_data->assets.GetTexture(winningPieceStr));
+            _gridPieces[x2][y2].setTexture(_data->assets.GetTexture(winningPieceStr));
+            _gridPieces[x3][y3].setTexture(_data->assets.GetTexture(winningPieceStr));
+
+            if(pieceToCheck == PLAYER_PIECE){
+                _gameState = STATE_WON;
+            } else {
+                _gameState = STATE_LOSE;
+            }
+
+        }
     }
 
 }

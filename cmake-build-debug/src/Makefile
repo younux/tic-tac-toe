@@ -125,6 +125,33 @@ tic_tac_toe/fast:
 	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/build
 .PHONY : tic_tac_toe/fast
 
+AI.o: AI.cpp.o
+
+.PHONY : AI.o
+
+# target to build an object file
+AI.cpp.o:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/AI.cpp.o
+.PHONY : AI.cpp.o
+
+AI.i: AI.cpp.i
+
+.PHONY : AI.i
+
+# target to preprocess a source file
+AI.cpp.i:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/AI.cpp.i
+.PHONY : AI.cpp.i
+
+AI.s: AI.cpp.s
+
+.PHONY : AI.s
+
+# target to generate assembly for a file
+AI.cpp.s:
+	cd /Users/younes/Projects/tic-tac-toe/cmake-build-debug && $(MAKE) -f src/CMakeFiles/tic_tac_toe.dir/build.make src/CMakeFiles/tic_tac_toe.dir/AI.cpp.s
+.PHONY : AI.cpp.s
+
 AssetManager.o: AssetManager.cpp.o
 
 .PHONY : AssetManager.o
@@ -404,6 +431,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tic_tac_toe"
+	@echo "... AI.o"
+	@echo "... AI.i"
+	@echo "... AI.s"
 	@echo "... AssetManager.o"
 	@echo "... AssetManager.i"
 	@echo "... AssetManager.s"

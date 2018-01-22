@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+.././include/AI.hpp
+SFML/Graphics.hpp
+-
+vector
+-
+array
+-
+Game.hpp
+.././include/Game.hpp
+
 .././include/AssetManager.hpp
 map
 -
@@ -43,6 +53,8 @@ State.hpp
 .././include/State.hpp
 Game.hpp
 .././include/Game.hpp
+AI.hpp
+.././include/AI.hpp
 
 .././include/InputManager.hpp
 SFML/Graphics.hpp
@@ -715,6 +727,14 @@ SFML/Config.hpp
 -
 
 ../extlibs/SFML/include/SFML/Window/WindowStyle.hpp
+
+/Users/younes/Projects/tic-tac-toe/src/AI.cpp
+AI.hpp
+/Users/younes/Projects/tic-tac-toe/src/AI.hpp
+iostream
+/Users/younes/Projects/tic-tac-toe/src/iostream
+DEFINITIONS.hpp
+/Users/younes/Projects/tic-tac-toe/src/DEFINITIONS.hpp
 
 /Users/younes/Projects/tic-tac-toe/src/AssetManager.cpp
 AssetManager.hpp

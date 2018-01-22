@@ -7,7 +7,7 @@
 #include <SFML/Graphics.hpp>
 #include "State.hpp"
 #include "Game.hpp"
-
+#include "AI.hpp"
 
 namespace Younux {
 
@@ -26,6 +26,10 @@ namespace Younux {
 
         void CheckAndPlace();
 
+        void CheckPlayerHasWon(int turn);
+        void Check3PiecesForMatch(int x1, int y1, int x2,
+                                  int y2, int x3, int y3, int pieceToCheck);
+
         GameDataRef _data;
 
         sf::Sprite _background;
@@ -37,6 +41,10 @@ namespace Younux {
 
         int _turn;
         int _gameState;
+
+        AI *ai;
+
+        sf::Clock _clock;
 
 
 

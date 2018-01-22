@@ -1,4 +1,4 @@
-set(SOURCE_FILES main.cpp StateMachinne.cpp AssetManager.cpp InputManager.cpp Game.cpp SplashState.cpp MainMenuState.cpp GameState.cpp PauseState.cpp GameOverState.cpp)
+set(SOURCE_FILES main.cpp StateMachinne.cpp AssetManager.cpp InputManager.cpp Game.cpp SplashState.cpp MainMenuState.cpp GameState.cpp PauseState.cpp GameOverState.cpp AI.cpp)
 add_executable(tic_tac_toe ${SOURCE_FILES})
 
 # Detect and add SFML
