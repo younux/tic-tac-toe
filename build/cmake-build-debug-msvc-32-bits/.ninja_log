@@ -1,0 +1,13 @@
+# ninja log v5
+67	1118	0	src/CMakeFiles/tic_tac_toe.dir/StateMachinne.cpp.obj	8ce5f1ad92658c41
+33	2743	0	src/CMakeFiles/tic_tac_toe.dir/InputManager.cpp.obj	b581f688b261dfe9
+100	2973	0	src/CMakeFiles/tic_tac_toe.dir/main.cpp.obj	cf5ddc39024f613b
+1	3024	0	src/CMakeFiles/tic_tac_toe.dir/AssetManager.cpp.obj	abf0d106839570ce
+136	3160	0	src/CMakeFiles/tic_tac_toe.dir/SplashState.cpp.obj	8e9879fcd28dd1c1
+170	3274	0	src/CMakeFiles/tic_tac_toe.dir/GameState.cpp.obj	a4a21e41f9216710
+1120	3937	0	src/CMakeFiles/tic_tac_toe.dir/MainMenuState.cpp.obj	e2345292d32417bf
+2745	5051	0	src/CMakeFiles/tic_tac_toe.dir/Game.cpp.obj	3d45446feb6262a3
+2974	5095	0	src/CMakeFiles/tic_tac_toe.dir/PauseState.cpp.obj	a1f482286344ad8
+3025	5179	0	src/CMakeFiles/tic_tac_toe.dir/AI.cpp.obj	658ca5988ae16609
+3161	5194	0	src/CMakeFiles/tic_tac_toe.dir/GameOverState.cpp.obj	16935bb57b1342da
+5195	7081	0	src/tic_tac_toe.exe	201b5332861b0a72

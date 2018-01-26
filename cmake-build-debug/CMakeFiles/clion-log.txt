@@ -1,5 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/younes/Projects/tic-tac-toe
--- Found SFML 2.4.2 in /Users/younes/Projects/tic-tac-toe/extlibs/SFML/include
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/younes/Projects/tic-tac-toe/cmake-build-debug
