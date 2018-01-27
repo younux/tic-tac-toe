@@ -9,7 +9,7 @@ MESSAGE("----> Used Compiler : ${CMAKE_CXX_COMPILER_ID}")
 MESSAGE("----> Detecting SFML corresponding to ${CMAKE_CXX_COMPILER_ID} compiler ")
 
 # Add library path to cmake depending on the compiler and the platform
-if(${CMAKE_CXX_COMPILER_ID} STREQUAL "Clang")
+if(APPLE)
 	set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${PROJECT_SOURCE_DIR}/extlibs/macosx-clang/SFML")
 elseif(MSVC)
 	set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${PROJECT_SOURCE_DIR}/extlibs/win-msvc-32-bits/SFML")
